@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\InmindLab3LibraryDB.props" />
+</Project>
