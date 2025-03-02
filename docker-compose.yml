@@ -1,0 +1,35 @@
+services:
+  keycloak:
+    image: quay.io/keycloak/keycloak:latest
+    container_name: keycloak
+    environment:
+      - KEYCLOAK_ADMIN=admin
+      - KEYCLOAK_ADMIN_PASSWORD=admin
+      - KC_DB=dev-file
+    ports:
+      - "8080:8080"
+    command: start-dev
+    volumes:
+      - keycloak_data:/opt/keycloak/data
+    networks:
+      - university-network
+
+  azurite:
+    image: mcr.microsoft.com/azure-storage/azurite
+    container_name: azurite
+    ports:
+      - "10000:10000"
+      - "10001:10001"
+      - "10002:10002"
+    volumes:
+      - azurite_data:/data
+    networks:
+      - university-network
+
+networks:
+  university-network:
+    driver: bridge
+
+volumes:
+  keycloak_data:
+  azurite_data:

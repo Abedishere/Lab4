@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "wsHC+SXulvoiTCKFkrAuoWtYL2kn44gXxq+T/Am1Sek=",
+  "Hash": "e3JvfFOQJEXuGkyZlV8QmcQpD+0js6YbIqW8DsD69oo=",
   "Source": "InmindLab3-4part2",
   "BasePath": "_content/InmindLab3-4part2",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "InmindLab3-4part2\\wwwroot",
+      "Source": "InmindLab3-4part2",
+      "ContentRoot": "C:\\Users\\Abed Al-Rahman\\RiderProjects\\InmindLab3-4part2\\InmindLab3-4part2\\wwwroot\\",
+      "BasePath": "_content/InmindLab3-4part2",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

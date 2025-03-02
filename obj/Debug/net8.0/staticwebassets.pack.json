@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Abed Al-Rahman\\RiderProjects\\InmindLab3-4part2\\InmindLab3-4part2\\wwwroot\\university-assets.cs",
+      "PackagePath": "staticwebassets\\university-assets.cs"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.InmindLab3-4part2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.InmindLab3-4part2.props",
+      "PackagePath": "build\\InmindLab3-4part2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.InmindLab3-4part2.props",
+      "PackagePath": "buildMultiTargeting\\InmindLab3-4part2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.InmindLab3-4part2.props",
+      "PackagePath": "buildTransitive\\InmindLab3-4part2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
